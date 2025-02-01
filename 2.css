@@ -1,0 +1,200 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ 
+body {
+    background-color: #333;
+    color: whitesmoke;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+/* Header */
+header {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Headings */
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+#menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#menu table, th, td {
+    border: 1px solid #ddd;
+}
+
+#menu th, #menu td {
+    padding: 10px;
+    text-align: left;
+}
+
+#menu th {
+    background-color: #444;
+}
+
+#menu td[colspan="3"] {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contact Form */
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+
+footer .nowrap {
+    white-space: nowrap;
+}
+
+footer time {
+    font-style: italic;
+}
+
+/* Center Content for About, Contact, and Hours Pages */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ensures the content in all pages like about.html, contact.html, and hours.html is centered */
+.page-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Center Form */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}

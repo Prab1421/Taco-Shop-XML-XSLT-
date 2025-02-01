@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleTacoShop>
+    <Menu>
+        <Item type="Crunchy">
+            <Quantity>1</Quantity>
+            <Price>Rs. 45</Price>
+        </Item>
+        <Item type="Crunchy">
+            <Quantity>2</Quantity>
+            <Price>Rs. 85</Price>
+        </Item>
+        <Item type="Crunchy">
+            <Quantity>3</Quantity>
+            <Price>Rs. 125</Price>
+        </Item>
+        <Item type="Soft">
+            <Quantity>1</Quantity>
+            <Price>Rs. 100</Price>
+        </Item>
+        <Item type="Soft">
+            <Quantity>2</Quantity>
+            <Price>Rs. 160</Price>
+        </Item>
+        <Item type="Soft">
+            <Quantity>3</Quantity>
+            <Price>Rs. 200</Price>
+        </Item>
+        <Extra>
+            <Item>Chips &amp; Salsa</Item>
+            <Price>Rs. 100</Price>
+        </Extra>
+    </Menu>
+    
+    <Hours>
+        <Weekdays>
+            <Days>Monday-Friday</Days>
+            <Time>11am-9pm</Time>
+        </Weekdays>
+        <Weekends>
+            <Days>Saturday-Sunday</Days>
+            <Time>11am-11pm</Time>
+        </Weekends>
+    </Hours>
+
+    <About>
+        <Founded>2022</Founded>
+        <Story>LTS was built from a love of tacos.</Story>
+    </About>
+
+    <Contact>
+        <Location>
+            <Address>154/1 Near Vishwanath Baba Temple, Budhaun, Ballia, Uttar Pradesh</Address>
+            <Phone>+919425963529</Phone>
+        </Location>
+        <Form>
+            <Field>Name</Field>
+            <Field>Email</Field>
+            <Field>Message</Field>
+        </Form>
+    </Contact>
+</LittleTacoShop>
